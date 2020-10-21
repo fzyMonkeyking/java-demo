@@ -1,0 +1,21 @@
+#include<stdio.h>
+#define N 50
+int str_len(char *s)
+{	int i=0;
+	while(*s!='\0')
+	{
+		i++;
+		s++;
+	}
+	return i;
+}
+int main()
+{
+	int a;
+	char s[N];
+	printf("请输入字符串:");
+	scanf("%s",s);
+	a=str_len(s);
+	printf("字符串长度:%d\n",a);
+	return 0;
+}
