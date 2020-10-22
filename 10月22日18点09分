@@ -1,0 +1,18 @@
+# java-demo
+#include <stdio.h>
+int main() 
+{
+	int sum = 0;
+	for(int i=10;i<100;i++) 
+	{ 
+		for(int j=10;j<100;j++)
+		{ 
+			if(i==2*(j/10+j%10)&&j==3*(i/10+i%10)) 
+			{
+				sum++;
+			}
+		}
+	}
+	printf("%d\n", sum);
+	return 0;
+}
