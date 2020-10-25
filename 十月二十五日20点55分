@@ -1,0 +1,13 @@
+# java-demo
+#include<stdio.h>
+int main()
+{
+    int n;
+    long long a;
+    scanf("%d", &n);
+    while(n--){
+        scanf("%lld", &a);
+        printf("%lld\n", a - 1);
+    }
+    return 0;
+}
